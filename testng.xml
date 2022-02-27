@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TESTNG.priorityNumber"/>
+      <class name="TESTNG.Basic_demo"/>
+      <class name="TESTNG.PriorityEnabled"/>
+      <class name="TESTNG.GetScreenShot"/>
+      <class name="TESTNG.PriorityAlphabet"/>
+      <class name="TESTNG.PriorityZeroZero"/>
+      <class name="TESTNG.PriorityGivenNotgiven"/>
+      <class name="TESTNG.Alphabet"/>
+      <class name="TESTNG.PriorityNegative"/>
+      <class name="TESTNG.PriorityNotTaken"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
