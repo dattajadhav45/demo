@@ -15,6 +15,7 @@ public class C
 	  WebDriver driver=new ChromeDriver();
 	  driver.get("https://www.mercurytravels.co.in/");
 	  Thread.sleep(2000);
+	  driver.get("google");
 	  driver.manage().window().maximize();
 	  Thread.sleep(3000);
  	   
